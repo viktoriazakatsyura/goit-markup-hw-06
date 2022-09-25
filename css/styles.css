@@ -227,7 +227,7 @@ button {
     visibility: hidden;
 }
 .modal {
-    padding: 35px;
+    padding: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -279,6 +279,10 @@ button {
     display: block;
     margin-bottom: 28px;
 }
+.form-modal-textarea {
+    position: relative;
+    display: block;
+}
 
 .form-modal-label {
     position: absolute;
@@ -311,6 +315,8 @@ button {
 
     transition: border-color var(--timing-function);
 }
+
+
 
 .form-modal-input:focus,
 .form-modal-input:not(:placeholder-shown) {
@@ -373,6 +379,8 @@ button {
 .form-modal-heading {
     display: block;
     margin-bottom: 4px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
 }
 
 .form-modal-message {
@@ -386,7 +394,9 @@ button {
     border-radius: 4px;
     transition: border-color var(--timing-function);
 }
-
+.form-modal-message:focus {
+    border-color: var(--fourth-color-blue);
+}
 .form-modal-message::placeholder {
     font-size: 14px;
 }
@@ -434,7 +444,9 @@ button {
 .form-modal-btn {
     display: block;
     margin: 0 auto;
+    padding: 10px 52px;
 }
+
 
 
 
@@ -710,7 +722,7 @@ button {
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-form{
-    margin-left: 94px;
+    margin-left: auto;
 }
 .footer-button-text{
     margin-right: 10px;
